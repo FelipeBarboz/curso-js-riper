@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.input {
+    width: 200px;
+    padding: 10px;
+    text-align: right;
+}
+
+.numbers,
+.operators {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+}
